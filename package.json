@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jitun123/atreyasoft/issues"
   },
-  "homepage": "https://github.com/jitun123/atreyasoft#readme"
+  "homepage": "https://github.com/jitun123/atreyasoft#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
