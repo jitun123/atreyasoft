@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
-//var port = 3000;
+var port = 3000;
 var app = express();
 
 // View engine
@@ -21,6 +21,6 @@ app.use(express.static(path.join(__dirname, 'client')));
 app.use('/', index);
 app.use('/api', tasks);
 
-app.listen(() => {
+app.listen(port, () => {
   console.log('Server Started');
 });
